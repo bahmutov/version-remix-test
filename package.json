@@ -1,7 +1,7 @@
 {
   "name": "version-remix-test",
   "description": "Test project for tool version-remix",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": "https://github.com/bahmutov/version-remix-test/issues",
   "config": {
