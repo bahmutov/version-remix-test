@@ -18,6 +18,9 @@ This small module has the following commits and git tags.
 Each git tag was published to the NPM registry.
 
 ```
+* 9c30474 tag: v1.4.1
+* ac43ac1 chore(npm): exclude spec file from publishing
+...
 * 1ff3eef tag: v1.4.0
 * b217f1e feat(add): print numbers before adding them
 * 789beae tag: v1.3.0
@@ -71,6 +74,20 @@ adding 2 to 3
 // 5
 sub(2, 3)
 // -1
+```
+
+Finally, I have noticed by running `npm run size` script that the
+test file `src/spec.js` was included in the published package. I have
+adjusted the `files` list in the [package.json](package.json) to exclude
+it and published a patch as version `v1.4.1`.
+
+In summary, each version with its relevant feature
+
+```
+v1.4.1 - exclude test spec file from the package
+v1.4.0 - print numbers before adding them up
+v1.3.0 - "sub" function
+v1.2.0 - "add" function
 ```
 
 ### Small print
