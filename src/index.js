@@ -1,6 +1,7 @@
 'use strict'
 
 function add (a, b) {
+  console.log(`adding ${a} to ${b}`)
   return a + b
 }
 
