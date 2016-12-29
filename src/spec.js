@@ -13,4 +13,16 @@ describe('version-remix-test arithmetic', () => {
       console.assert(add(2, 3) === 5)
     })
   })
+
+  describe('sub', () => {
+    const {sub} = require('.')
+
+    it('is a function', () => {
+      console.assert(typeof sub === 'function')
+    })
+
+    it('subtracts two numbers', () => {
+      console.assert(sub(2, 3) === -1)
+    })
+  })
 })
