@@ -1,22 +1,18 @@
 # version-remix-test
 
-> Test project for tool version-remix
+> Test project for tool [version-remix][version-remix]
 
 [![NPM][npm-icon] ][npm-url]
 
-[![Build status][ci-image] ][ci-url]
-[![semantic-release][semantic-image] ][semantic-url]
-[![js-standard-style][standard-image]][standard-url]
+[version-remix]: https://github.com/bahmutov/version-remix
 
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2016
 
-
 * [@bahmutov](https://twitter.com/bahmutov)
 * [glebbahmutov.com](http://glebbahmutov.com)
 * [blog](http://glebbahmutov.com/blog)
-
 
 License: MIT - do anything with the code, but don't blame me if it does not work.
 
@@ -50,9 +46,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [npm-icon]: https://nodei.co/npm/version-remix-test.svg?downloads=true
 [npm-url]: https://npmjs.org/package/version-remix-test
-[ci-image]: https://travis-ci.org/bahmutov/version-remix-test.svg?branch=master
-[ci-url]: https://travis-ci.org/bahmutov/version-remix-test
-[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[semantic-url]: https://github.com/semantic-release/semantic-release
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
-[standard-url]: http://standardjs.com/
